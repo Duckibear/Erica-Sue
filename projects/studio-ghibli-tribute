@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="studio ghibli tribute" content="tribute with list of movies">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+		
+		<title>Studio Ghibli Tribute</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	
+		<div id="main">
+			<header class="tributeHead">
+				<h1 id="title">Studio Ghibli</h1>
+				<h2>Founded on June 15, 1985 in Tokyo, Japan.</h2>
+				<ul>
+					<h3>Key Founders</h3>
+					<hr>
+					<li><a id="tribute-link" target="_blank" href="https://ghibli.fandom.com/wiki/Hayao_Miyazaki" alt="">Hayao Miyazaki</a></li>
+					<li><a target="_blank" href="https://ghibli.fandom.com/wiki/Toshio_Suzuki" alt="">Toshio Suzuki</a></li>
+					<li><a target="_blank" href="https://ghibli.fandom.com/wiki/Isao_Takahata" alt="">Isao Takahata</a></li>
+				</ul>
+		
+			</header>
+		
+			<section id="tribute-info">
+				<h2>Iconic Animation Film Studio</h2>
+				<div class="container-sm">
+					<div class="para box-1">
+						<p>
+							<img class="icons" src="https://www.seekpng.com/png/full/817-8172695_spirited-away-png.png" alt="">
+							Studio Ghibli was founded after the successful performance of Nausicaä of the Valley of the Wind (1984). They are best known for animated feature films and have released short subjects, television commercials, and television films. Their highest-grossing films are Spirited Away (2001), Howl's Moving Castle (2004) and Ponyo (2008). Notably, they have collaborated with video game studios on the visual development of several games.
+						</p>
+					</div>
+					<div class="para box-2">
+						<p>
+							<img class="icons" src="https://64.media.tumblr.com/585dadc5f54e13dc911cd1efd272c154/tumblr_n8fibrxSSe1twut9eo1_500.png" alt="">
+							Studio Ghibli films have garnered numerous awards and critical acclaim from film critics and animation specialists around the world. Spirited Away was awarded the Golden Bear as the Best Feature Film at the 2002 Berlin International Film Festival and won the 2002 Academy Award for Best Animated Feature Film.
+						</p>
+					</div>
+		
+				</div>
+			</section>
+		
+			<section id="timeline">
+		
+				<div class="tl-item">
+		
+					<div class="tl-bg" style="background-image: url(https://www.ghibli.jp/gallery/nausicaa001.jpg)"></div>
+		
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">1984</p>
+					</div>
+		
+					<div class="tl-content">
+						<h1>Nausicaä of the Valley of the Wind</h1>
+						<p>Warrior and pacifist Princess Nausicaä desperately struggles to prevent two warring nations from destroying themselves and their dying planet.</p>
+					</div>
+		
+				</div>
+		
+				<div class="tl-item">
+		
+					<div class="tl-bg" style="background-image: url(https://www.ghibli.jp/gallery/laputa040.jpg)"></div>
+		
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">1986</p>
+					</div>
+		
+					<div class="tl-content">
+						<h1 class="f3 text--accent ttu">Castle in the Sky</h1>
+						<p>A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle.</p>
+					</div>
+		
+				</div>
+		
+				<div class="tl-item">
+		
+					<div class="tl-bg" style="background-image: url(https://www.ghibli.jp/gallery/totoro029.jpg)"></div>
+		
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">1988</p>
+					</div>
+		
+					<div class="tl-content">
+						<section>	
+							<h1 class="f3 text--accent ttu">My Neighbor Totoro</h1>
+							<p>When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.</p>
+						</section>
+
+						<section>
+							<h1 class="f3 text--accent ttu">Grave of the Fireflies</h1>
+							<p>A young boy and his little sister struggle to survive in Japan during World War II.</p>
+						</section>
+					</div>
+		
+				</div>
+		
+				<div class="tl-item">
+		
+					<div class="tl-bg" style="background-image: url(https://cdn.dodowallpaper.com/full/671/kikis-delivery-service-wallpapers-2.jpg)"></div>
+		
+					<div class="tl-year">
+						<p class="f2 heading--sanSerif">1989</p>
+					</div>
+		
+					<div class="tl-content">
+						<h1 class="f3 text--accent ttu">Kiki's Delivery Service</h1>
+						<p>A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.</p>
+					</div>
+		
+				</div>
+			</section>
+		
+			<div id=img-div>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/images/marnie1.jpg" alt="">
+					<span class="img-caption cap1">When Marnie Was There</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/images/kaguya1.jpg" alt="">
+					<span class="img-caption cap2">Princess Kaguya</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/gallery/kazetachinu050.jpg" alt="">
+					<span class="img-caption cap3 ">The Wind Rises</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/gallery/kazetachinu042.jpg" alt="">
+					<span class="img-caption">The Wind Rises</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/gallery/kokurikozaka003.jpg" alt="">
+					<span class="img-caption">From Up on Poppy Hill</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/gallery/ponyo050.jpg" alt="">
+					<span class="img-caption">Ponyo</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/gallery/porco026.jpg" alt="">
+					<span class="img-caption">Porco Rosso</span>
+				</figure>
+				<figure>
+					<img id="image" src="https://www.ghibli.jp/gallery/laputa039.jpg" alt="">
+					<span class="img-caption">Castle in the Sky</span>
+				</figure>
+			</div>
+		</div>
+		
+	
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
