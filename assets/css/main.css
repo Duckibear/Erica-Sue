@@ -1125,21 +1125,18 @@ input, select, textarea {
 		}
 
 		#bg:before {
-			-moz-transition: background-color 1.5s ease-in-out;
-			-webkit-transition: background-color 1.5s ease-in-out;
-			-ms-transition: background-color 1.5s ease-in-out;
-			transition: background-color 1.5s ease-in-out;
-			-moz-transition-delay: 0.55s;
-			-webkit-transition-delay: 0.55s;
-			-ms-transition-delay: 0.55s;
-			transition-delay: 0.55s;
-			background-image: linear-gradient(to top, rgba(65, 68, 67, 0.5), rgba(51, 52, 54, 0.5));
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			-moz-transition: background-color .5s ease-in-out;
+			-webkit-transition: background-color .5s ease-in-out;
+			-ms-transition: background-color .5s ease-in-out;
+			transition: background-color .5s ease-in-out;
+			-moz-transition-delay: 0.30s;
+			-webkit-transition-delay: 0.30s;
+			-ms-transition-delay: 0.30s;
+			transition-delay: 0.30s;
+			background-image: linear-gradient(to top, rgba(65, 68, 67, 0.25), rgba(51, 52, 54, 0.25));
+			background-size: auto, 256px 256px;
+			background-position: center;
+			background-repeat: no-repeat;
 			z-index: 2;
 		}
 
@@ -1168,10 +1165,6 @@ input, select, textarea {
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
 			filter: blur(0.2rem);
-		}
-
-		body.is-preload #bg:before {
-			background-color: #000000;
 		}
 
 /* Wrapper */
